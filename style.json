@@ -29,13 +29,6 @@
       "paint": {"background-color": "rgb(239,239,239)"}
     },
     {
-      "id": "natural_earth",
-      "type": "raster",
-      "source": "natural_earth_shaded_relief",
-      "maxzoom": 6,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.1]]}}
-    },
-    {
       "id": "park",
       "type": "fill",
       "source": "openmaptiles",
@@ -207,7 +200,7 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "filter": ["all", ["!=", "brunnel", "tunnel"]],
-      "paint": {"fill-color": "rgb(158,189,255)"}
+      "paint": {"fill-color": "rgba(174, 224, 244, 1)"}
     },
     {
       "id": "landcover_sand",
@@ -1329,7 +1322,7 @@
       "filter": ["all", ["==", "admin_level", 2], ["!has", "claimed_by"]],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "hsl(248, 1%, 41%)",
+        "line-color": "rgba(121, 116, 116, 0.34)",
         "line-opacity": {"base": 1, "stops": [[0, 0.4], [4, 1]]},
         "line-width": {"base": 1, "stops": [[3, 1], [5, 1.2], [12, 3]]}
       }
@@ -1343,7 +1336,7 @@
       "filter": ["all", ["==", "admin_level", 2]],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "hsl(248, 1%, 41%)",
+        "line-color": "rgba(121, 116, 116, 0.34)",
         "line-opacity": {"base": 1, "stops": [[0, 0.4], [4, 1]]},
         "line-width": {"base": 1, "stops": [[3, 1], [5, 1.2], [12, 3]]}
       }
@@ -1650,7 +1643,8 @@
         "text-field": "{name_en}",
         "text-font": ["Roboto Condensed Italic"],
         "text-size": {"stops": [[4, 11], [6, 15]]},
-        "text-transform": "uppercase"
+        "text-transform": "uppercase",
+        "visibility": "none"
       },
       "paint": {
         "text-color": "#633",
