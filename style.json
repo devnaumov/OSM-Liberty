@@ -2,7 +2,7 @@
   "version": 8,
   "name": "OSM Liberty",
   "metadata": {
-    "maputnik:license": "https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md",
+    "maputnik:license": "https://github.com/devnaumov/osm-liberty/blob/gh-pages/LICENSE.md",
     "maputnik:renderer": "mbgljs",
     "openmaptiles:version": "3.x"
   },
@@ -12,7 +12,7 @@
       "url": "https://tiles.stadiamaps.com/data/openmaptiles.json"
     },
   },
-  "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
+  "sprite": "https://devnaumov.github.io/osm-liberty/sprites/osm-liberty",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
