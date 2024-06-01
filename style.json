@@ -10,7 +10,7 @@
     "openmaptiles": {
       "type": "vector",
       "url": "https://tiles.stadiamaps.com/data/openmaptiles.json"
-    },
+    }
   },
   "sprite": "https://devnaumov.github.io/osm-liberty/sprites/osm-liberty",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
